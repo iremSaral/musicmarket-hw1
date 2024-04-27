@@ -16,7 +16,7 @@ function Product() {
     
     <div id='Product'>
         <div className="container text-center" style={{marginTop:"50px"}}>
-        <h1 className='text-danger'> Products </h1 >
+        <h1 className='' style={{color:"#0E2442"}}> Products </h1 >
     <hr></hr>
     <div className="container-sm">
     <div class="row " style={{marginTop:'50px'}}>

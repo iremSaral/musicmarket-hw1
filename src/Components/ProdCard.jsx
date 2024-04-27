@@ -1,5 +1,5 @@
 import React from 'react'
-import me from '../images/me.JPG'
+
 
 function ProdCard({img,name,price}) {
   return (
@@ -8,7 +8,7 @@ function ProdCard({img,name,price}) {
     <img src={img} class="card-img-top" alt="..." />
     <div class="card-body">
       <p class="card-text">{name}</p>
-      <button type="button" class="btn btn-light" onClick={()=>{}}>
+      <button type="button" class="btn btn-light" >
 {price}</button>
     </div>
   </div></div>

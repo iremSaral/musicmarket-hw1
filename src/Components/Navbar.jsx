@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Main from './Main';
 import Initial from './Initial'
 import About from './About';
 import Product from './Product';
+import logo from '../images/logo.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Navbar() {
@@ -13,8 +13,7 @@ function Navbar() {
     <div>
     <nav class="navbar navbar-expand bg-secondary-subtle">
     <div class="container">
-     <img src='https://images.app.goo.gl/KgaUUsKPiSqx55S49' class="w-60px h-50px bg-danger "></img>
-     <p>Müzik dükkanım</p>
+     <img src={logo} class="w-60px h-50px bg-danger "></img>
       <div class="collapse navbar-collapse" >
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
