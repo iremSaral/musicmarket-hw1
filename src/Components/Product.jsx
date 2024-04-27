@@ -13,6 +13,7 @@ import nektar from '../images/nektar.png';
 
 function Product() {
   return (
+    
     <div id='Product'>
         <div className="container text-center" style={{marginTop:"50px"}}>
         <h1 className='text-danger'> Products </h1 >
