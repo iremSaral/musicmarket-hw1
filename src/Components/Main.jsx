@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Navbar from './Navbar';
 function Main() {
   return (
-  <h2>irem </h2>
+ <Navbar/>
   )
 }
 
